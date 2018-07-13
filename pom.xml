@@ -7,6 +7,7 @@
     <groupId>com.amazonaws</groupId>
     <artifactId>parentProject</artifactId>
     <version>1.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     
     <modules>
       <module>aws-serverless-sqs-event/aws-serverless-sqs-event-source-app/pom.xml</module>
