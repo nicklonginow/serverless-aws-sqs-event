@@ -10,6 +10,7 @@
     
     <modules>
       <module>aws-serverless-sqs-event-source-app/pom.xml</module>
+      <module>aws-serverless-sqs-event-source-java-messageprocessor/pom.xml</module>
     </modules>
 
     <properties>
