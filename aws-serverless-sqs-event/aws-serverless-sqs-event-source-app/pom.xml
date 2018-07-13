@@ -8,12 +8,7 @@
     <artifactId>aws-serverless-sqs-event-source-app</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-         
-    <parent>
-             <groupId>com.amazonaws</groupId>
-             <artifactId>parentProject</artifactId>
-             <version>1.0-SNAPSHOT</version>
-    </parent>
+
 
     <name>aws-serverless-sqs-event-source</name>
     <url>
