@@ -1,0 +1,12 @@
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/main/java/com/amazonaws/serverless/sqseventsource/SQSPoller.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/main/java/com/amazonaws/serverless/sqseventsource/MessageDispatcher.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/main/java/com/amazonaws/serverless/sqseventsource/dagger/Env.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/main/java/com/amazonaws/serverless/sqseventsource/dagger/AppComponent.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/main/java/com/amazonaws/serverless/sqseventsource/lambda/SQSPollerHandler.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/main/java/com/amazonaws/serverless/sqseventsource/LambdaUtil.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/main/java/com/amazonaws/serverless/sqseventsource/MessageProcessorException.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/main/java/com/amazonaws/serverless/sqseventsource/RetryMessageRequest.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/main/java/com/amazonaws/serverless/sqseventsource/MessageProcessingStats.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/main/java/com/amazonaws/serverless/sqseventsource/dagger/AppModule.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/main/java/com/amazonaws/serverless/sqseventsource/MessageProcessorProxy.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/main/java/com/amazonaws/serverless/sqseventsource/SQSProxy.java

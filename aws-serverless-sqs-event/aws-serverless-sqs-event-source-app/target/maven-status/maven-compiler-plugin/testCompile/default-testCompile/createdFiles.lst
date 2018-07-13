@@ -1,0 +1,7 @@
+com/amazonaws/serverless/sqseventsource/SQSPollerTest.class
+com/amazonaws/serverless/sqseventsource/MessageDispatcherTest.class
+com/amazonaws/serverless/sqseventsource/TestStackHelper.class
+com/amazonaws/serverless/sqseventsource/MessageProcessorProxyTest.class
+com/amazonaws/serverless/sqseventsource/MessageProcessingStatsTest.class
+com/amazonaws/serverless/sqseventsource/EventualConsistency.class
+com/amazonaws/serverless/sqseventsource/SQSPollerIT.class

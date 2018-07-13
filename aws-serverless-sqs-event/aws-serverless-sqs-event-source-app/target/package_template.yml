@@ -1,0 +1,61 @@
+AWSTemplateFormatVersion: 2010-09-09
+Outputs:
+  SQSPollerFunctionArn:
+    Export:
+      Name:
+        Fn::Sub: ${AWS::StackName}-SQSPollerFunctionArn
+    Value:
+      Fn::GetAtt:
+      - SQSPoller
+      - Arn
+  SQSPollerFunctionName:
+    Export:
+      Name:
+        Fn::Sub: ${AWS::StackName}-SQSPollerFunctionName
+    Value:
+      Ref: SQSPoller
+Parameters:
+  MessageProcessorFunctionName:
+    Description: Name of lambda function that should be invoked to process messages
+      from the queue. Note, this must be a function name and not a function ARN.
+    Type: String
+  MessageQueueName:
+    Description: Name of SQS queue to poll.
+    Type: String
+  MessageQueueUrl:
+    Description: URL of SQS queue to poll.
+    Type: String
+  SQSPollerMemorySize:
+    Default: 512
+    Description: Memory size of SQSPoller lambda.
+    Type: Number
+Resources:
+  SQSPoller:
+    Properties:
+      CodeUri: s3://nicklonginow-generic-northern-virginia/edf1419448def1aa41a8d14aa24e6649
+      Environment:
+        Variables:
+          MESSAGE_PROCESSOR_FUNCTION_NAME:
+            Ref: MessageProcessorFunctionName
+          QUEUE_URL:
+            Ref: MessageQueueUrl
+      Events:
+        Timer:
+          Properties:
+            Schedule: rate(1 minute)
+          Type: Schedule
+      Handler: com.amazonaws.serverless.sqseventsource.lambda.SQSPollerHandler::handleRequest
+      MemorySize:
+        Ref: SQSPollerMemorySize
+      Policies:
+      - SQSPollerPolicy:
+          QueueName:
+            Ref: MessageQueueName
+      - LambdaInvokePolicy:
+          FunctionName:
+            Ref: MessageProcessorFunctionName
+      Runtime: java8
+      Timeout: 60
+      Tracing: Active
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31

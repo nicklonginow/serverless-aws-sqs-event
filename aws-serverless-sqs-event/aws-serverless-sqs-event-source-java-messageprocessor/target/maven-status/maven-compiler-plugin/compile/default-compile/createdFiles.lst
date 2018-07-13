@@ -1,0 +1,7 @@
+com/amazonaws/serverless/sqseventsource/messageprocessor/SQSMessageResult.class
+com/amazonaws/serverless/sqseventsource/messageprocessor/RetryMessageException.class
+com/amazonaws/serverless/sqseventsource/messageprocessor/SQSMessageProcessorResponse.class
+com/amazonaws/serverless/sqseventsource/messageprocessor/SQSMessageProcessorRequest.class
+com/amazonaws/serverless/sqseventsource/messageprocessor/SQSMessageDeserializer.class
+com/amazonaws/serverless/sqseventsource/messageprocessor/SQSMessageProcessor.class
+com/amazonaws/serverless/sqseventsource/messageprocessor/SQSMessageResult$Status.class

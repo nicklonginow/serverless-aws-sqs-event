@@ -1,0 +1,36 @@
+No messages received from queue. Returning until next polling cycle to save cost.
+Processed 2 messages in 0ms. perMessageAverage=0ms
+Retrying 2 messages. retry results: [SQSMessageResult(messageId=1, status=RETRY, retryDelayInSeconds=null), SQSMessageResult(messageId=2, status=RETRY, retryDelayInSeconds=null)]
+Processed 2 messages in 0ms. perMessageAverage=0ms
+Deleting 2 successful messages from the queue. messageIds: [1, 2]
+Processed 2 messages in 0ms. perMessageAverage=0ms
+Retrying 2 messages. retry results: [SQSMessageResult(messageId=1, status=RETRY, retryDelayInSeconds=13), SQSMessageResult(messageId=2, status=RETRY, retryDelayInSeconds=29)]
+Processed 3 messages in 0ms. perMessageAverage=0ms
+Deleting 1 successful messages from the queue. messageIds: [success]
+Retrying 1 messages. retry results: [SQSMessageResult(messageId=retry, status=RETRY, retryDelayInSeconds=null)]
+1 messages encountered errors during processing: [SQSMessageResult(messageId=error, status=ERROR, retryDelayInSeconds=null)]
+No message processing stats yet. Returning estimated capacity of INT_MAX
+Processed 1 messages in 0ms. perMessageAverage=0ms
+Deleting 1 successful messages from the queue. messageIds: [1]
+Estimated capacity of -2147483648 messages can be processed in -158ms based on samples: [0]
+No message processing stats yet. Returning estimated capacity of INT_MAX
+MessageProcessor encountered an error
+com.amazonaws.serverless.sqseventsource.MessageProcessorException: null
+Processed 2 messages in 0ms. perMessageAverage=0ms
+2 messages encountered errors during processing: [SQSMessageResult(messageId=1, status=ERROR, retryDelayInSeconds=null), SQSMessageResult(messageId=2, status=ERROR, retryDelayInSeconds=null)]
+Processed 1 messages in 0ms. perMessageAverage=0ms
+Deleting 1 successful messages from the queue. messageIds: [1]
+Estimated capacity of -2147483648 messages can be processed in -171ms based on samples: [0]
+Invoking message processor lambda to process 3 messages
+Invoking message processor lambda to process 3 messages
+Processed 2 messages in 200ms. perMessageAverage=100ms
+Estimated capacity of 1 messages can be processed in 100ms based on samples: [100, 100]
+Estimated capacity of 2 messages can be processed in 200ms based on samples: [100, 100]
+Estimated capacity of 4 messages can be processed in 400ms based on samples: [100, 100]
+Estimated capacity of 8 messages can be processed in 800ms based on samples: [100, 100]
+Processed 2 messages in 100ms. perMessageAverage=50ms
+Estimated capacity of 1 messages can be processed in 100ms based on samples: [100, 100, 50, 50]
+Estimated capacity of 2 messages can be processed in 200ms based on samples: [100, 100, 50, 50]
+Estimated capacity of 5 messages can be processed in 400ms based on samples: [100, 100, 50, 50]
+Estimated capacity of 10 messages can be processed in 800ms based on samples: [100, 100, 50, 50]
+Estimated capacity of 13 messages can be processed in 1000ms based on samples: [100, 100, 50, 50]

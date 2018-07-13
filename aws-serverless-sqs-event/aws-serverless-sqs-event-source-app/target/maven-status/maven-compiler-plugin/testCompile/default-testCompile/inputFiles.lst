@@ -1,0 +1,7 @@
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/test/java/com/amazonaws/serverless/sqseventsource/SQSPollerTest.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/test/java/com/amazonaws/serverless/sqseventsource/EventualConsistency.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/test/java/com/amazonaws/serverless/sqseventsource/MessageProcessorProxyTest.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/test/java/com/amazonaws/serverless/sqseventsource/MessageProcessingStatsTest.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/test/java/com/amazonaws/serverless/sqseventsource/SQSPollerIT.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/test/java/com/amazonaws/serverless/sqseventsource/TestStackHelper.java
+/Users/nl186006/Desktop/aws/samples/aws-serverless-sqs-event-source/aws-serverless-sqs-event-source-app/src/test/java/com/amazonaws/serverless/sqseventsource/MessageDispatcherTest.java
