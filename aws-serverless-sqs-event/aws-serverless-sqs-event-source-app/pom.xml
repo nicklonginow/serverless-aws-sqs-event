@@ -105,7 +105,8 @@
                         <goals>
                             <goal>exec</goal>
                         </goals>
-                        <configuration>
+<!--
+                             <configuration>
                             <executable>${basedir}/bin/integ-test-env-setup.sh</executable>
                             <arguments>
                                 <argument>integ-tests</argument>
@@ -114,6 +115,7 @@
                                 </argument>
                             </arguments>
                         </configuration>
+-->
                     </execution>
                     <execution>
                         <id>Integ Test Environment Teardown</id>
