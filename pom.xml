@@ -9,8 +9,8 @@
     <version>1.0.1-SNAPSHOT</version>
     
     <modules>
-      <module>aws-serverless-sqs-event-source-app/pom.xml</module>
-      <module>aws-serverless-sqs-event-source-java-messageprocessor/pom.xml</module>
+      <module>aws-serverless-sqs-event/aws-serverless-sqs-event-source-app/pom.xml</module>
+      <module>aws-serverless-sqs-event/aws-serverless-sqs-event-source-java-messageprocessor/pom.xml</module>
     </modules>
 
     <properties>
